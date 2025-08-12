@@ -55,7 +55,7 @@
 </div>
 <table class="imgtable"><tr><td>
 <img src="liangwang.jpg" alt="Liang Wang" width="114px" height="160px" />&nbsp;</td>
-<td align="left"><p>Ph.D. CUHK,<br /> Associate Professor,<br /> <a href="https://scse.buaa.edu.cn/">School of Computer Science and Engineering<br />Beihang University (BUAA), Beijing, China</a><br />
+<td align="left"><p>Liang Wang (王 良),<br />Ph.D. CUHK,<br /> Associate Professor,<br /> <a href="https://scse.buaa.edu.cn/">School of Computer Science and Engineering<br />Beihang University (BUAA), Beijing, China</a><br />
 Email: <i>lwang20</i> [@] buaa.edu.cn,<br /> Address: New Main Building, Beihang University, Haidian District, 100191, Beijing, China</p>
 </td></tr></table>
 <h2>About me</h2>
@@ -147,10 +147,6 @@ document.addEventListener('DOMContentLoaded', function() {
             fullName = `${parts[1]} ${parts[0]}`;
         } else {
             fullName = name;
-        }
-        // 如果是“Liang Wang”则加粗
-        if (fullName === 'Liang Wang') {
-            return `<strong>${fullName}</strong>`;
         }
         return fullName;
     }).join(', ');
